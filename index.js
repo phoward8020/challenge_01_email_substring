@@ -1,4 +1,13 @@
-//helper code reads data from stdin
+/*
+ * DO NOT MODIFY THIS FILE
+ *
+ * This code is the app.
+ * It reads from std in and calls your function
+ * then outputs the return value to stdout.
+ *
+ * example usage: node index.js < ./lib/test00.txt
+ */
+
 process.stdin.resume();
 process.stdin.setEncoding('ascii');
 var words="";
@@ -12,5 +21,3 @@ process.stdin.on('data', function(chunk) {
 process.stdin.on('end', function() {
     console.log(findEmailSubstring(words));
 });
-
-//30,625  -- 122,500 = 62,461  n^2 + (n/2)^2
