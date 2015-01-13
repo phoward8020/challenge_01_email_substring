@@ -58,7 +58,7 @@ This one also says book.
 **Example Output**
 
 ```
-book Book books too
+book and Books too
 ```
 
 Your program outputs the e-mail subject where `book` appears the most. Notice that it doesn't care about capitilization or the 's' on books.
